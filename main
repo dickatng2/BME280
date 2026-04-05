@@ -4,6 +4,9 @@ import time
 # BME280 default address.
 BME280_I2CADDR = 0x76
 
+ota_updater = OTAUpdater(SSID, PASSWORD, firmware_url, "main.py")
+tijd()
+
 # Operating Modes
 BME280_OSAMPLE_1 = 1
 BME280_OSAMPLE_2 = 2
