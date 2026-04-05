@@ -13,6 +13,9 @@ import ntptime
 # BME280 default address.
 BME280_I2CADDR = 0x76
 
+firmware_url = "https://github.com/dickatng2/BME280/"
+my_timer = Timer(4)
+
 ota_updater = OTAUpdater(SSID, PASSWORD, firmware_url, "main.py")
 tijd()
 
