@@ -1,5 +1,14 @@
+# version 1
 from machine import I2C
-import time
+from machine import Pin, PWM, Timer, time
+from time import sleep
+import sys
+import network
+import urequests
+import os
+import json
+import ntptime
+
 
 # BME280 default address.
 BME280_I2CADDR = 0x76
